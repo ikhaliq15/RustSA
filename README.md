@@ -32,3 +32,10 @@ Decrypt the ciphertext `2698985146` with a private key.
 $ ./RustSA decrypt 2698985146 2996203831 1701586155
 Decrypted message: 31415
 ```
+
+## Possible Extensions
+
+- Implement built-in ascci to integer encoding and decoding for easier message sharing.
+- Implement the RSA Digtial Signature algorithm, mainly signing and verifying algorithms.
+  - Also include reading/signing/verifying documents from the file system along with some hashing method.
+- Optimize the existing algorithms for speed and make benchmarks for the program.
