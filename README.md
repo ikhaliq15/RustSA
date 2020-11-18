@@ -35,7 +35,7 @@ Decrypted message: 31415
 
 ## Possible Extensions
 
-- Implement built-in ascci to integer encoding and decoding for easier message sharing.
+- Implement built-in ASCII to integer encoding and decoding for easier message sharing.
 - Implement the RSA Digtial Signature algorithm, mainly signing and verifying algorithms.
   - Also include reading/signing/verifying documents from the file system along with some hashing method.
 - Optimize the existing algorithms for speed and make benchmarks for the program.
